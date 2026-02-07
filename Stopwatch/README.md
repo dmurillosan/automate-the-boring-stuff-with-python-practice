@@ -2,6 +2,8 @@
 
 A command-line stopwatch for tracking time spent on focused work sessions. Built while working through *Automate the Boring Stuff with Python*.
 
+![Stopwatch Demo](./stopwatch.jpg)
+
 ## The Problem
 
 I needed to track how long specific tasks take for personal productivity tracking. Using my phone's timer meant switching devices and breaking my workflow; I wanted a solution that stays within my computer environment, where I'm already working.
