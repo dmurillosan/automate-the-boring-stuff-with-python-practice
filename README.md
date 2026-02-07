@@ -1,6 +1,6 @@
 # Automate the Boring Stuff - Practice Projects
 
-./automate_the_boring_stuff_with_python_cover.jpg
+![Automate the Boring Stuff with Python](./automate_the_boring_stuff_with_python_cover.jpg)
 
 Personal Python projects built while working through *Automate The Boring Stuff With Python* to practice core concepts and develop familiarity with the language.
 
