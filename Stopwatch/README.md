@@ -2,7 +2,7 @@
 
 A command-line stopwatch for tracking time spent on focused work sessions. Built while working through *Automate the Boring Stuff with Python*.
 
-![Stopwatch Demo](./stopwatch.jpg)
+![Stopwatch Demo](./img_stopwatch.jpg)
 
 ## The Problem
 
