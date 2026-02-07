@@ -10,7 +10,7 @@ As I work through the book, I identify actual workflow inefficiencies or repetit
 
 ## Projects
 
-### [Stopwatch](./stopwatch/stopwatch/)
+### [Stopwatch](./stopwatch/)
 
 **Concepts Practiced:** `datetime`, file I/O, loops, state management, exception handling
 
