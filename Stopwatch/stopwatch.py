@@ -6,8 +6,8 @@ import datetime
 import os
 import sys
 
-# init variable time_started, used to control timer start and stop events
-timer_started = False
+# init variable time_started, used to control stopwatch start and stop events
+stopwatch_started = False
 
 # track start stopwatch events
 def start_time():
@@ -41,17 +41,17 @@ def spaces():
 
 # track user action - start stopwatch
 def usr_action_start():
-    global timer_started
-    print('\nPress "ENTER" To Start Timer')
+    global stopwatch_started
+    print('\nPress "ENTER" To Start Stopwatch')
     input("> ")
-    timer_started = True
+    stopwatch_started = True
 
 # track user action - stop stopwatch
 def usr_action_stop():
-    global timer_started
-    print('\nPress "ENTER" To Stop Timer')
+    global stopwatch_started
+    print('\nPress "ENTER" To Stop Stopwatch')
     input("> ")
-    timer_started = False
+    stopwatch_started = False
 
 # logging function tracking program actions in a text file in the same directory
 # will implement logging.basicConfig(level=logging.DEBUG) in future projects
@@ -65,7 +65,7 @@ def time_history_log(dt_event):
 def main_function():
     dt_start = None
     dt_stop = None
-    while not timer_started:
+    while not stopwatch_started:
         spaces()
         usr_action_start()
         dt_start = start_time()
